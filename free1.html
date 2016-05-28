@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MergedID18803498441e</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- PieChart generated in R 3.3.0 by googleVis 0.5.10 package -->
+<!-- Sat May 28 23:29:50 2016 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataPieChartID18806f42110e () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "Afghanistan",
+30682500 
+],
+[
+ "Angola",
+23448202 
+],
+[
+ "Albania",
+2897366 
+],
+[
+ "United Arab Emirates",
+9039978 
+],
+[
+ "Argentina",
+42538304 
+],
+[
+ "Armenia",
+2992192 
+] 
+];
+data.addColumn('string','Country.Name');
+data.addColumn('number','Population');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataPieChartID18802235868 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "Afghanistan",
+30682500 
+],
+[
+ "Angola",
+23448202 
+],
+[
+ "Albania",
+2897366 
+],
+[
+ "United Arab Emirates",
+9039978 
+],
+[
+ "Argentina",
+42538304 
+],
+[
+ "Armenia",
+2992192 
+] 
+];
+data.addColumn('string','Country.Name');
+data.addColumn('number','Population');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartPieChartID18806f42110e() {
+var data = gvisDataPieChartID18806f42110e();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "wdi2013";
+options["legend"] = "none";
+options["pieSliceText"] = "label";
+options["width"] =    600;
+options["height"] =    700;
+options["slices"] = {0:{offset:0.7}};
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID18806f42110e')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartPieChartID18802235868() {
+var data = gvisDataPieChartID18802235868();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "wdi2013";
+options["pieHole"] =    0.4;
+options["width"] =    600;
+options["height"] =    700;
+
+
+    var chart = new google.visualization.PieChart(
+    document.getElementById('PieChartID18802235868')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID18806f42110e);
+})();
+function displayChartPieChartID18806f42110e() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartPieChartID18802235868);
+})();
+function displayChartPieChartID18802235868() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID18806f42110e"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartPieChartID18802235868"></script>
+ 
+<table border="0">
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID18806f42110e" 
+  style="width: 600; height: 700;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="PieChartID18802235868" 
+  style="width: 600; height: 700;">
+</div>
+
+</td>
+</tr>
+</table>
+ <div><span>Data: various &#8226; Chart ID: <a href="Chart_MergedID18803498441e.html">MergedID18803498441e</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.0 (2016-05-03) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; Data Policy: See individual charts
+</span></div>
+</body>
+</html>
